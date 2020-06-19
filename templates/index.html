@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>templates is working </title>
+</head>
+<body>
+<!--my  name is {{name}} <br>i am {{age}} year old-->
+<h1> welcome to the text analyzer </h1>
+<h2>Enter  your text here </h2>
+<form action="/analyze" method="get">
+    <textarea  name="text"  style='margin:0px ;width: 1300px; height: 227px;'></textarea><br>
+    <input type="checkbox" name="removepunc">Remove punctuation<br>
+    <input type="checkbox" name="capfirst">uppercase<br>
+    <input type="checkbox" name="newlineremover">Extra line remover<br>
+    <input type="checkbox" name="extraspaceremover"> Extra spaceremover<br>
+    <input type="checkbox" name="charcount">character count<br>
+
+    <button type="submit">analyze test </button>
+</form>
+
+</body>
+</html>
